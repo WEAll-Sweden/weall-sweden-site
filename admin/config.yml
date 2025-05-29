@@ -1,8 +1,13 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: weallsweden/weall-sweden-site
   branch: main
+  base_url: https://poetic-sable-61a3b9.netlify.app
+  auth_endpoint: api/auth
+
 media_folder: "public/images"
 public_folder: "/images"
+
 collections:
   - name: "pages"
     label: "Pages"
