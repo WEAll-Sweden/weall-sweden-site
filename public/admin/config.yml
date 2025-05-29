@@ -1,11 +1,12 @@
 backend:
-  name: github
-  repo: weall-sweden/weall-sweden-site
-  branch: main
+  name: oauth2
   auth_type: oauth2
-  app_id: Ov23liFA1jTt1WriABxj
   base_url: https://dev-mv6ghq2w53eenka2.eu.auth0.com
   auth_endpoint: authorize
+  app_id: Ov23liFA1jTt1WriABxj
+  token_endpoint: oauth/token
+  repo: weall-sweden/weall-sweden-site
+  branch: main
 
 media_folder: "public/images"
 public_folder: "/images"
